@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+/*https://www.youtube.com/watch?v=G4_QjTJTVlc
+46 mobile*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*<!------------------------------------------------------------------------- Mapa ----------------------------------------------------------------->*/
+
+.localizacao .headline1{
+    color: #fff;
+    padding-top: 3rem;
+   }
+   
+   .localizacao{
+     background-color: rgb(0, 0, 0);
+   }
+
+.mapa{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:1rem;
+    justify-items: center;
+   
+    background-blend-mode: color;
+}
+
+.mapa_m{
+
+    width: 90%;
+}
+
+.mapa h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #eee;
+}
+
+
+
+/*<!------------------------------------------------------------------------- Background images  ----------------------------------------------------------------->*/
+/*<!------------------------------------------------------------------------- Inicio ----------------------------------------------------------------->*/
+
+
+.localizacao{
+    background-image: url("../img/foto3.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding-bottom: 3rem;
+}
+
+
+#showcase{
+  
+    background-image: url("../img/foto1.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.74);
+
+}
+
+
+#gallery {
+    background-image: url("../img/foto2.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.74);
+    background-blend-mode: color;
+}
+
+/*<!------------------------------------------------------------------------- Valores ----------------------------------------------------------------->*/
+
+#importante{
+    
+   background-color: black;
+}
+
+/*<!------------------------------------------------------------------------- Nosso Serviço ----------------------------------------------------------------->*/
+
+#product{
+    background-image: url("../img/foto3.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.74);
+    
+}
+
+  /*  <!------------------------------------------------------------------------- serviços adicionais ----------------------------------------------------------------->*/
+
+  #servico{
+    background-image: url("../img/foto4.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+
+
+ /*  <!------------------------------------------------------------------------- roda pé ----------------------------------------------------------------->*/
+ .footer{
+   background-image: url("../img/foto5.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+/*<!------------------------------------------------------------------------- Onde anunciamos ----------------------------------------------------------------->*/
+
+
+
+
+
+/*<!------------------------------------------------------------------------- Objetivo ----------------------------------------------------------------->*/
+
+#features{
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+  /*  <!------------------------------------------------------------------------- Redes Sociais ----------------------------------------------------------------->*/
+
+
+#botoes_redes{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+#botoes_redes .headline2{
+   padding-bottom: 2rem;
+}
+
+
+
+
+  /*  <!------------------------------------------------------------------------- Quem sou Eu ----------------------------------------------------------------->*/
+
+  #testimonials {
+    background-color: rgb(0, 0, 0); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+
+
+
+/*<!------------------------------------------------------------------------- Fim Background images  ----------------------------------------------------------------->*/
+
+.headline1, #testimonials-container, .headline2, .itens, #features-container, .formuesquerda{
+    visibility: hidden;
+}
+
+/*<!------------------------------------------------------------------------- Nav-Bar  ----------------------------------------------------------------->*/
+
+.header-nav{
+    background-blend-mode: color;
+    position: fixed; z-index: 1; width: 100%;
+    animation: fadeIn 2s;
+    
+}
+
+
+
+.logo-nav{
+    width: 60px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 6rem;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    color: #eee;
+}
+
+.nav-link{
+    color: #eee;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list ul{
+display: flex;
+justify-content: center;
+
+}
+
+.nav-item {
+    margin: 0.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.menu-mobile{
+   padding-top: 1rem;
+    margin: 0;
+    height: 0;
+    padding: 0;
+    align-items: flex-start;
+   animation: fadeIn 2s;
+   overflow: hidden;
+}
+
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/*<!------------------------------------------------------------------------- Dúvidas  ----------------------------------------------------------------->*/
+
+#btnLeiaMais{
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    background-color: #111;
+    transition: all .5s ease;
+    border: none;
+}
+
+#btnLeiaMais_dois{
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    transition: all .5s ease;
+    background-color: #111;
+    border: none;
+}
+
+#btnLeiaMais_tres{
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    transition: all .5s ease;
+    border: none;
+    background-color: #111;
+}
+
+#btnLeiaMais_quatro{
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 10rem;
+    transition: all .5s ease;
+    background-color: #111;
+    border: none;
+}
+
+#btnLeiaMais_cinco{
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    transition: all .5s ease;
+    background-color: #111;
+    border: none;
+}
+
+.fa-circle-arrow-down{
+    color: rgb(0, 192, 199);
+}
+
+.fa-circle-arrow-up{
+    color: rgb(0, 172, 252);
+}
+
+#btnLeiaMais:hover {
+    cursor: pointer;
+    background: rgb(0, 204, 255);
+}
+
+#btnLeiaMais_dois:hover {
+    cursor: pointer;
+    background: rgb(0, 204, 255);
+}
+
+#btnLeiaMais_tres:hover {
+    cursor: pointer;
+    background: rgb(0, 204, 255);
+}
+
+#btnLeiaMais_quatro:hover {
+    cursor: pointer;
+    background: rgb(0, 204, 255);
+}
+
+#btnLeiaMais_cinco:hover {
+    cursor: pointer;
+    background: rgb(0, 204, 255);
+}
+
+
+.openbtnum{
+    margin-top: 4rem;
+}
+
+.openbtndois{
+    margin-top: 6.5rem;
+}
+
+.openbtntres{
+    margin-top: 4rem;
+}
+
+.openbtnquatro{
+    margin-top: 4rem;
+}
+
+.openbtncinco{
+    margin-top: 4rem;
+}
+
+
+
+/*<!------------------------------------------------------------------------- Inicio ----------------------------------------------------------------->*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#showcase-container a{
+   
+    text-transform: uppercase;    
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: inline-block;
+    padding: 40px 50px;
+    font-size: 1.7rem;
+    background: rgb(250, 250, 250);
+    border-radius: 100px;
+    transition: background 500ms ease;
+}
+/*cor neon azul que pisca no botão*/
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to {
+        filter: drop-shadow(0 0 30px var(--cor-neon));
+    }
+}
+
+.btn {
+    animation:  neon 1s alternate infinite ease-in-out;
+    --cor-neon: rgb(144, 0, 211);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(0, 204, 255);
+}
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.product-image{
+    width: 15rem;
+    margin-bottom: 2rem;
+    }
+
+.product-img{
+    width: 450px;
+}
+
+.headline_second {
+    font-size: 2.2rem;
+    
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+/*<!------------------------------------------------------------------------- showcase ----------------------------------------------------------------->*/
+
+#showcase {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    
+    transition: .2s ease;
+    /*overlay*/
+   
+    background-blend-mode: color;
+
+}
+
+#showcase-container {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    
+}
+
+#showcase-container h2 {
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#showcase-container #h22{
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;   
+    color: rgb(255, 255, 255); 
+    animation: fadeIn 2s;
+}
+
+#showcase-container #h222{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    animation: fadeIn 2s;
+}
+
+#showcase-container p {
+    font-size: 1.5rem;
+}
+
+#showcase-container #pdois {
+
+    color: rgb(0, 247, 255);
+}
+
+#showcase-container a{
+    margin-top: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/*<!------------------------------------------------------------------------- Formas de contato ----------------------------------------------------------------->*/
+#botoes_redes {
+    
+    padding: 15px;
+    width: 100%;
+    
+}
+
+#div_botoes_redes {
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.fa-square-instagram{
+    color: #fff;
+}
+
+.fa-tiktok{
+    color: #fff;
+}
+
+.fa-youtube{
+    color: #fff;
+}
+
+#botoes_redes .headline{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
+}
+
+#botoes_redes .headline1{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.headline1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+
+.headline2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1.0%;
+    color: white;
+}
+
+#botoes_redes .Hfooter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    padding-top: 3.5%;
+}
+
+
+
+
+
+
+/*<!------------------------------------------------------------------------- Nosso serviço ----------------------------------------------------------------->*/
+#product {
+    width: 100%;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    
+   
+    background-blend-mode: color;
+    
+}
+
+#product .headline{
+        font-family: 'Montserrat', sans-serif;
+         
+}
+
+
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.items {
+    width: 50%;
+}
+
+
+.item {
+    display: flex;
+    padding: 3%;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    padding-bottom:10%;
+  
+    border-radius: 5px;
+    height: 150px;
+    
+}
+
+#product p{
+    color: rgb(255, 255, 255);
+}
+
+#product i{
+    padding: 1rem;
+    color: rgb(0, 199, 206);
+}
+
+
+
+/*<!------------------------------------------------------------------------- Por que contratar ----------------------------------------------------------------->*/
+#importante {
+    width: 100%;
+    padding: 20px;
+    
+    
+    background-blend-mode: color;
+}
+
+#importante .headline{
+        font-family: 'Montserrat', sans-serif;
+}
+
+
+#importante .headline1{
+    color: rgb(255, 255, 255); 
+    padding-top: 1rem;
+}
+
+#importante .iten{
+    padding-top: 1rem;
+   
+}
+
+#importante p{
+    color: #eee;
+}
+
+#importante-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+    
+}
+
+.fa-google{
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram{
+    color: rgb(255, 255, 255);
+}
+
+.fa-money-check-dollar{
+    color: rgb(255, 255, 255);
+}
+
+.itens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.iten {
+   
+   
+    width: 24rem;
+
+}
+
+
+
+/*<!------------------------------------------------------------------------- Quem sou eu ----------------------------------------------------------------->*/
+.testimonial {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+   
+    padding: 15px;
+    margin: 15px 0;
+
+    
+    
+    border-radius: 5px;
+   
+    
+}
+
+
+#testimonials {
+    width: 100%;
+    padding: 20px;
+}
+
+#testimonials p{
+    color: rgb(207, 207, 207);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+
+#testimonials-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .testimonial-image {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#testimonials .headline{
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#testimonials .headline1{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255); 
+}
+
+/*<!------------------------------------------------------------------------- Galeria ----------------------------------------------------------------->*/
+
+#gallery .headline1{
+    color: #fff;
+
+}
+
+#gallery .headline2{
+    color: #fff;
+    padding-bottom: 3rem;
+
+}
+
+#gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    
+}
+
+.gallery-image {
+    display: inline-block;
+    width: 50%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+/*<!------------------------------------------------------------------------- roda pé ----------------------------------------------------------------->*/
+
+.footer {
+
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.74);
+    background-color: black;
+    background-blend-mode: color;
+   
+}
