@@ -51,7 +51,11 @@ sr.reveal('#product-container',{
     delay:100
 });
 
-
+sr.reveal('#importante-container',{
+    rotate: {x: 0, y: 80, z: 0},
+    duration:400,
+    delay:100
+});
 
 
 /*Serviços adicionais*/ 
