@@ -94,120 +94,19 @@ function menuShow() {
     let mexebaixo = document.getElementById('showcase');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
+        mexebaixo.style.height = "80vh";
+        document.querySelector('.icon-menu').src = "img/menu_white_36dp.svg";
+        
+    } else {
         mexebaixo.style.height = "100vh";
-        
-    } else {
-        mexebaixo.style.height = "120vh";
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "assets/img/close_white_36dp.svg";
+        document.querySelector('.icon-menu').src = "img/close_white_36dp.svg";
 
     }
 
 }
-/*<!------------------------------------------------------------------------- Dúvidas  ----------------------------------------------------------------->*/
 
 
-
-function leiaMais() {
-    let menuMobile = document.querySelector('.primeiraduvida');
-    let menuMobileDois = document.querySelector('#mais');
-    let btnmenu = document.querySelector('#btnLeiaMais');
-
-    if (menuMobile.classList.contains('openspan')) {
-        menuMobile.classList.remove('openspan');
-        menuMobileDois.style.overflow="hidden";
-        btnmenu.classList.remove('openbtnum');
-        btnLeiaMais.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-down fa-2x color-primary"></i>';
-        
-    } else {
-        menuMobile.classList.add('openspan');
-        menuMobileDois.style.overflow="visible";
-        menuMobileDois.style.animation = "fadeIn 2s";
-        btnmenu.classList.add('openbtnum');
-        btnLeiaMais.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-up fa-2x color-primary"></i>';
-    }
-}
-
-function leiaMaisDois() {
-    let menuMobile = document.querySelector('.segundaduvida');
-    let menuMobileDois = document.querySelector('#mais_dois');
-    let btnmenu = document.querySelector('#btnLeiaMais_dois');
-
-    if (menuMobile.classList.contains('openspan_dois')) {
-        menuMobile.classList.remove('openspan_dois');
-        menuMobileDois.style.overflow="hidden";
-        btnmenu.classList.remove('openbtndois');
-        btnLeiaMais_dois.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-down fa-2x color-primary"></i>';
-        
-    } else {
-        menuMobile.classList.add('openspan_dois');
-        menuMobileDois.style.overflow="visible";
-        menuMobileDois.style.animation = "fadeIn 2s";
-        btnmenu.classList.add('openbtndois');
-        btnLeiaMais_dois.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-up fa-2x color-primary"></i>';
-    }
-}
-
-function leiaMaisTres() {
-    let menuMobile = document.querySelector('.terceiraduvida');
-    let menuMobileDois = document.querySelector('#mais_tres');
-    let btnmenu = document.querySelector('#btnLeiaMais_tres');
-
-    if (menuMobile.classList.contains('openspan_tres')) {
-        menuMobile.classList.remove('openspan_tres');
-        menuMobileDois.style.overflow="hidden";
-        btnmenu.classList.remove('openbtntres');
-        btnLeiaMais_tres.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-down fa-2x color-primary"></i>';
-        
-    } else {
-        menuMobile.classList.add('openspan_tres');
-        menuMobileDois.style.overflow="visible";
-        menuMobileDois.style.animation = "fadeIn 2s";
-        btnmenu.classList.add('openbtntres');
-        btnLeiaMais_tres.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-up fa-2x color-primary"></i>';
-    }
-}
-
-
-function leiaMaisQuatro() {
-    let menuMobile = document.querySelector('.quartaduvida');
-    let menuMobileDois = document.querySelector('#mais_quatro');
-    let btnmenu = document.querySelector('#btnLeiaMais_quatro');
-
-    if (menuMobile.classList.contains('openspan_quatro')) {
-        menuMobile.classList.remove('openspan_quatro');
-        menuMobileDois.style.overflow="hidden";
-        btnmenu.classList.remove('openbtnquatro');
-        btnLeiaMais_quatro.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-down fa-2x color-primary"></i>';
-        
-    } else {
-        menuMobile.classList.add('openspan_quatro');
-        menuMobileDois.style.overflow="visible";
-        btnmenu.classList.add('openbtnquatro');
-        menuMobileDois.style.animation = "fadeIn 2s";
-        btnLeiaMais_quatro.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-up fa-2x color-primary"></i>';
-    }
-}
-
-function leiaMaisCinco() {
-    let menuMobile = document.querySelector('.quintaduvida');
-    let menuMobileDois = document.querySelector('#mais_cinco');
-    let btnmenu = document.querySelector('#btnLeiaMais_cinco');
-
-    if (menuMobile.classList.contains('openspan_cinco')) {
-        menuMobile.classList.remove('openspan_cinco');
-        menuMobileDois.style.overflow="hidden";
-        btnmenu.classList.remove('openbtncinco');
-        btnLeiaMais_cinco.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-down fa-2x color-primary"></i>';
-        
-    } else {
-        menuMobile.classList.add('openspan_cinco');
-        menuMobileDois.style.overflow="visible";
-        menuMobileDois.style.animation = "fadeIn 2s";
-        btnmenu.classList.add('openbtncinco');
-        btnLeiaMais_cinco.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-up fa-2x color-primary"></i>';
-    }
-}
 
 
 
