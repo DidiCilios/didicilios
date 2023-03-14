@@ -53,7 +53,7 @@ justify-content: center;
 
 
 .localizacao{
-    background-image: url("../img/foto3.png");
+    background-image: url("../img/foto3.webp");
     margin: 0;
     padding: 0;
     background-position: center;
@@ -66,7 +66,7 @@ justify-content: center;
 
 #showcase{
   
-    background-image: url("../img/foto1.png");
+    background-image: url("../img/foto1.webp");
     margin: 0;
     padding: 0;
     background-position: center;
@@ -78,7 +78,7 @@ justify-content: center;
 
 
 #gallery {
-    background-image: url("../img/foto2.png");
+    background-image: url("../img/foto2.webp");
     margin: 0;
     padding: 0;
     background-position: center;
@@ -98,7 +98,7 @@ justify-content: center;
 /*<!------------------------------------------------------------------------- Nosso Serviço ----------------------------------------------------------------->*/
 
 #product{
-    background-image: url("../img/foto3.png");
+    background-image: url("../img/foto3.webp");
     margin: 0;
     padding: 0;
     background-position: center;
@@ -111,7 +111,7 @@ justify-content: center;
   /*  <!------------------------------------------------------------------------- serviços adicionais ----------------------------------------------------------------->*/
 
   #servico{
-    background-image: url("../img/foto4.png");
+    background-image: url("../img/foto4.webp");
     margin: 0;
     padding: 0;
     background-position: center;
@@ -125,7 +125,7 @@ justify-content: center;
 
  /*  <!------------------------------------------------------------------------- roda pé ----------------------------------------------------------------->*/
  .footer{
-   background-image: url("../img/foto5.png");
+   background-image: url("../img/foto5.webp");
     margin: 0;
     padding: 0;
     background-position: center;
