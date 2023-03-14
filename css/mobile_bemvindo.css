@@ -1,21 +1,24 @@
 body{
-    background-image: url("../img/fundobemvindo.webp");
+    background-image: url("../img/fundobemvindo2.webp");
+    margin: 0;
+    padding: 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.74);
+    background-blend-mode: color;
 }
 
 
 #gallery {
-    width: 21rem;
-    margin: auto;
-    padding: 1rem;
+    width: 20.5rem;
+    height: 40rem;
 }
 
 .gallery-image {
     width: 10rem;
     border-radius: 5px;
+    height: 19rem;
 }
 
 
