@@ -115,3 +115,9 @@ body{
 .fa-youtube{
     color: #fff;
 }
+
+.btn_bemvindo{
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+}
