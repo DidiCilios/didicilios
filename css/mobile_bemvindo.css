@@ -1,4 +1,4 @@
-body{
+.cobre{
     background-image: url("../img/fundobemvindo2.webp");
     margin: 0;
     padding: 0;
@@ -10,23 +10,13 @@ body{
 }
 
 
-#gallery {
-    width: 20.5rem;
-    height: 40rem;
-}
-
 .gallery-image {
     width: 10rem;
-    border-radius: 5px;
     height: 19rem;
 }
 
 
-.logo{
-    margin-top: 3rem;
-    width: 8rem;
-}
 
 #botoes_redes{
-    margin-top: 12rem;
+    margin-top: 7rem;
 }

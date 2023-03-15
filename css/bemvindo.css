@@ -1,5 +1,7 @@
-
 body{
+    background-color: black
+}
+.cobre{
     background-image: url("../img/fundobemvindo.webp");
     margin: 0;
     padding: 0;
@@ -10,13 +12,6 @@ body{
     background-blend-mode: color;
 }
 
-
-.showcase{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap:1rem;
-    justify-items: center;
-}
 
 .btn{
     
@@ -33,45 +28,6 @@ body{
     transition: background 500ms ease;
 }
 
-.headline {
-  
-    font-size: 2.2rem;
-    
-    text-align: center;
-    
-    letter-spacing: 2px;
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
-}
-
-.show{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap:1rem;
-    justify-items: center;
- 
-}
-
-.logo{
-    margin-top: 2rem;
-    width: 8rem;
-}
-
-.pessoa{
-    text-align: center;
-    letter-spacing: 2px;
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
-}
-
-.pessoa_p{
-    text-align: center;
-    letter-spacing: 2px;
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
-    
-}
-
 
 .btn2{
     background-color: red;
@@ -87,22 +43,6 @@ body{
     transition: background 500ms ease;
 }
 
-.backdiv{
-  
-    width: 100%;
-    height: 100%;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
-    color: black;
-}
-
 
 /*cor neon azul que pisca no botão*/
 @keyframes neon {
@@ -114,15 +54,6 @@ a{
     }
 }
 
-.btn{
-    animation:  neon 1s alternate infinite ease-in-out;
-    --cor-neon: rgb(0, 144, 211);
-}
-
-.btn2{
-    animation:  neon 1s alternate infinite ease-in-out;
-    --cor-neon: rgb(0, 144, 211);
-}
 
 .gallery-image{
     animation:  neon 1s alternate infinite ease-in-out;
@@ -131,32 +62,21 @@ a{
 
 
 
-.btn:hover {
-    cursor: pointer;
-    background: rgb(0, 204, 255);
-}
-
-.btn2:hover {
-    cursor: pointer;
-    background: rgb(0, 204, 255);
-}
-
-
-
-
-
 /*<!------------------------------------------------------------------------- Galeria ----------------------------------------------------------------->*/
 #gallery {
     
-    width: 50rem;
-    margin: auto;
-    padding: 1rem;
+   
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:1rem;
+    justify-items: center;
     
 }
 
 #gallery-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
     justify-items: center;
 }
 
