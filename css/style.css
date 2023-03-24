@@ -740,6 +740,7 @@ a{
 
 #testimonials-container{
     width: 80%;
+    height: 100%;
     margin: auto;
     display: flex;
     align-items: center;

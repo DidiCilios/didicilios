@@ -60,6 +60,11 @@ body{
     --cor-neon: rgb(95, 95, 95);
 }
 
+.btn_bemvindo{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
 
 
 /*<!------------------------------------------------------------------------- Galeria ----------------------------------------------------------------->*/
@@ -114,10 +119,4 @@ body{
 
 .fa-youtube{
     color: #fff;
-}
-
-.btn_bemvindo{
-        cursor: pointer;
-        border: none;
-        background-color: transparent;
 }
